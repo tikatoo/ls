@@ -1,4 +1,4 @@
-package tl
+package tog
 
 import (
 	"math/rand"

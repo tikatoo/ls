@@ -1,6 +1,6 @@
 //go:build !tlProduction
 
-package tl
+package tog
 
 import (
 	"os"

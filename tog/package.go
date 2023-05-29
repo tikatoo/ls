@@ -25,4 +25,4 @@
 // You can also manually set the top-level logger,
 // using SetLogger.
 
-package tl
+package tog
