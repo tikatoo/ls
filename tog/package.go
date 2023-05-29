@@ -1,4 +1,4 @@
-// Package tl implements a context-based logging API.
+// Package tog implements a context-based logging API.
 // The ctx argument to logging functions in this package
 // will have a value that determines the destination Logger.
 //
@@ -8,7 +8,7 @@
 // This package configures a default "top-level" logger
 // (which is used for contexts that do not have a logger set),
 // which has different behaviours depending on build tags.
-// If the tag `tlProduction` is used at build time,
+// If the tag `togProduction` is used at build time,
 // the top-level logger is set to log at InfoLevel,
 // and outputs to stderr in JSON format.
 //
@@ -24,5 +24,4 @@
 //
 // You can also manually set the top-level logger,
 // using SetLogger.
-
 package tog

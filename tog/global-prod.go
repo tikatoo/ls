@@ -1,6 +1,6 @@
-//go:build tlProduction
+//go:build togProduction
 
-package tl
+package tog
 
 import (
 	"go.uber.org/zap"

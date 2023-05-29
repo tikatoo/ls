@@ -1,4 +1,4 @@
-//go:build !tlProduction
+//go:build !togProduction
 
 package tog
 
